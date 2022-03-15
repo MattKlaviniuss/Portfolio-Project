@@ -13,6 +13,9 @@
     <link rel="icon" type="image/x-icon" href="/resources/images/MK Logo.png" />
     <link rel="stylesheet" href="resources/reset.css" />
     <link rel="stylesheet" href="resources/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
     <script
       src="https://kit.fontawesome.com/e2011b99c5.js"
       crossorigin="anonymous"
@@ -26,8 +29,10 @@
       </p>
     <![endif]-->
     <nav>
-      <span class="text-logo">MK Portfolio</span>
-      <span id="top-clock">JS clock</span>
+        <div class="greet">
+            <span id="text-logo">MK Portfolio</span>
+            <span id="time"></span>
+        </div>
       <!--Insert clock via JS-->
       <span class="nav">
         <a href="/index.html">HOME</a>
@@ -79,6 +84,6 @@
       <img src="/resources/images/MK Full logo.png" />
       <p>&copy; Created by Matiss "Matt" Klaviniuss, 2022</p>
     </footer>
-    <script src="" async defer></script>
+    <script src="index.js" async defer></script>
   </body>
 </html>
